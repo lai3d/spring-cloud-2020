@@ -11,6 +11,18 @@ spring:
     username: larry
     password: CQH?wot^x@q,
 
+eureka:
+  client:
+    #是否向注册中心注册自己
+    register-with-eureka: true
+    #是否从注册中心抓取已有的注册信息 默认true，集群必须设置为true
+    fetchRegistry: true
+    service-url:
+       #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
+       #单机版
+       defaultZone: http://localhost:7001/eureka
+       #集群版
+       #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
