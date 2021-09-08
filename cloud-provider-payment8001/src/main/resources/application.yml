@@ -8,8 +8,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: root
-    password: root
+    username: larry
+    password: CQH?wot^x@q,
 
 
 mybatis:
