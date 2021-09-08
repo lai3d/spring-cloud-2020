@@ -107,10 +107,11 @@
     </pluginManagement>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <locales>en,fr</locales>
+          <fork>true</fork>
+          <addResources>true</addResources>
         </configuration>
       </plugin>
     </plugins>
