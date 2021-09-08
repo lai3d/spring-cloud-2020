@@ -12,6 +12,13 @@
     <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
+        <!-- 服务注册中心的客户端端 eureka-client -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.atguigu.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
