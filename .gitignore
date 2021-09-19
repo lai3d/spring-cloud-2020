@@ -13,3 +13,4 @@ cloud-provider-hystrix-payment8001/target/
 cloud-consumer-feign-hystrix-order80/target/
 cloud-consumer-hystrix-dashboard9001/target/
 cloud-gateway-gateway9527/target/
+cloud-config-center-3344/target/
