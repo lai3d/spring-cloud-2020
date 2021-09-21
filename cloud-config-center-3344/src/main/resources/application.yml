@@ -13,6 +13,12 @@ spring:
             - springcloud-config
       label: master
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:
@@ -21,3 +27,9 @@ eureka:
       #defaultZone: http://localhost:7001/eureka
       #集群版
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
