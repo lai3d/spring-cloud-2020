@@ -19,3 +19,5 @@ cloud-config-client-3366/target/
 cloud-stream-rabbitmq-provider8801/target/
 cloud-stream-rabbitmq-consumer8802/target/
 cloud-stream-rabbitmq-consumer8803/target/
+cloudalibaba-provider-payment9001/target/
+cloudalibaba-provider-payment9002/target/
