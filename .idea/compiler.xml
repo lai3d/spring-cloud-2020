@@ -15,6 +15,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
