@@ -19,6 +19,7 @@
         <module name="cloud-consumerzk-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-order80" />

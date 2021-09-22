@@ -17,3 +17,4 @@ cloud-config-center-3344/target/
 cloud-config-client-3355/target/
 cloud-config-client-3366/target/
 cloud-stream-rabbitmq-provider8801/target/
+cloud-stream-rabbitmq-consumer8802/target/
