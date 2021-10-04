@@ -14,7 +14,7 @@
     <update id="decrease">
         UPDATE t_account
         SET
-            residue = residue - #{money},used = used + #{money}
+            residue = residue - #{money}, used = used + #{money}
         WHERE
             user_id = #{userId};
     </update>
