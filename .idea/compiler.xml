@@ -31,6 +31,7 @@
         <module name="cloud-gateway-gateway9527" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-config-client-3355" />
       </profile>
     </annotationProcessing>
